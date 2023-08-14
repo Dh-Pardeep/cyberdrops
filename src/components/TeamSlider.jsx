@@ -10,14 +10,14 @@ import MyNav from "./MyNav";
 export default function TeamSlider() {
     const slider = React.useRef(null);
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
         arrows: false,
         pauseOnHover: true,
         autoplay: false,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         responsive: [
             {
                 breakpoint: 1199,
