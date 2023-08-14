@@ -1,7 +1,7 @@
 import './App.css';
 import './Root.css';
+import React from 'react';
 import Hero from './components/Hero';
-import MyNav from './components/MyNav';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import OurMission from './components/OurMission';
 import Partners from './components/Partners';
@@ -19,30 +19,26 @@ import BackToTop from './components/BackToTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './components/views/HomePage';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1000,
       once: true,
     });
   }, [])
   return (
     <>
-      <div className='bg-black'>
-        <BackToTop />
-        <MyPreloader />
-        <MyNav />
-        <Hero />
-        <OurMission />
-        <Partners />
-        <OurAlgo />
-        <What />
-        <HowWorksCard />
-        <TeamSlider />
-        <RoadMap />
-        <MyAccordion />
-        <MyFooter />
-      </div>
+      <React.Fragment>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/Team' element={<TeamSlider />} />
+          <Route path='/Partners' element={<Partners />} />
+          <Route path='/Roadmap' element={<RoadMap />} />
+          <Route path='/about' element={<MyFooter />} />
+        </Routes>
+      </React.Fragment>
     </>
   );
 }

@@ -19,11 +19,11 @@ const MyNav = () => {
           <nav className='d-flex justify-content-between align-items-center  py-1'>
             <img className='Logo_w_h c_pointer' src={Logo} alt="Log" />
             <ul className={`${showNavbar ? 'd-flex align-items-center mb-0 nav_sm p-0' : 'd-flex align-items-center mb-0 nav_sm nav_show p-0'} `}>
-              <li><Link onClick={() => setShowNavbar(true)} className='active color_orange ff_lato fs_xs fw-normal  nav_hover position-relative d-inline-block'>Home</Link></li>
-              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative'>About</Link></li>
-              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative'>Team</Link></li>
-              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative'>Roadmap</Link></li>
-              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative'>Partners</Link></li>
+              <li><Link onClick={() => setShowNavbar(true)} className='active color_orange ff_lato fs_xs fw-normal  nav_hover position-relative d-inline-block' to="/">Home</Link></li>
+              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative 'to="/about">About</Link></li>
+              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative' to="/Team">Team</Link></li>
+              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative' to="/Roadmap">Roadmap</Link></li>
+              <li><Link onClick={() => setShowNavbar(true)} className='ms-lg-4 mt-lg-0 mt-3 d-inline-block  ff_lato fs_xs fw-normal color_white nav_hover position-relative' to="/Partners">Partners</Link></li>
               <li><a onClick={() => setShowNavbar(true)} href="https://www.boat-lifestyle.com/" target='_blank' className='mt-lg-0 mt-4 ms-lg-4 ps-lg-1 d-inline-block c_pointer'><Boaticon /></a></li>
               <li><a onClick={() => setShowNavbar(true)} href="https://discord.com/" className='mt-lg-0 mt-4 ms-lg-2 ps-lg-1  d-inline-block c_pointer' target='_blank'><Discordicon /></a></li>
               <li><a onClick={() => setShowNavbar(true)} href="https://twitter.com/" className='mt-lg-0 mt-4 ms-lg-2 ps-lg-1  d-inline-block c_pointer' target='_blank'><Twittericon /></a></li>

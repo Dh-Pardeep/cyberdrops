@@ -6,9 +6,9 @@ const HowWorksCard = () => {
         <>
             <section>
                 <div className="mycontainer">
-                    <h2 className='font_4xl color_white ff_lato fw-bolder mb-0 text-center pt-5'>How it <span className=' color_orange'>works</span></h2>
+                    <h2 className='font_4xl color_white ff_lato fw-bolder mb-0 text-center pt-5' data-aos="fade-up">How it <span className=' color_orange'>works</span></h2>
                     <div className='d-grid gap-3 my-5 py-3'>
-                        <div className='how_card_1 ' >
+                        <div className='how_card_1 '  data-aos="flip-up" data-aos-delay="1000">
                             <div className="my_card  mx-auto me-sm-0">
                                 <h2 className='color_white text-center h2_card mb-0 d-flex align-items-center justify-content-center font_2xl mx-auto ff_lato mt-4'>01</h2>
                                 <h3 className='color_white text-center font_lg fw-bold ff_lato mb-0 pt-4'>Mint NFT</h3>
@@ -16,7 +16,7 @@ const HowWorksCard = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='how_card_2'>
+                        <div className='how_card_2' data-aos="flip-up" data-aos-delay="1000">
                             <div className="my_card mx-auto ms-sm-0 mx-lg-auto">
                                 <h2 className='color_white text-center h2_card mb-0 d-flex align-items-center justify-content-center font_2xl mx-auto ff_lato mt-4  '>02</h2>
                                 <h3 className='color_white text-center font_lg fw-bold ff_lato mb-0 pt-4'>Verify NFT Ownership</h3>
@@ -25,7 +25,7 @@ const HowWorksCard = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='how_card_3'>
+                        <div className='how_card_3' data-aos="flip-up" data-aos-delay="1000">
                             <div className="my_card mx-auto me-sm-0 ms-lg-0">
                                 <h2 className='color_white text-center h2_card mb-0 d-flex align-items-center justify-content-center font_2xl mx-auto ff_lato mt-4  '>03</h2>
                                 <h3 className='color_white text-center font_lg fw-bold ff_lato mb-0 pt-4'>Link API to your account</h3>
@@ -34,7 +34,7 @@ const HowWorksCard = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='how_card_4'>
+                        <div className='how_card_4' data-aos="flip-up" data-aos-delay="1000">
                             <div className="my_card mx-auto ms-sm-0 mx-lg-auto">
                                 <h2 className='color_white text-center h2_card mb-0 d-flex align-items-center justify-content-center font_2xl mx-auto ff_lato mt-4  '>04</h2>
                                 <h3 className='color_white text-center font_lg fw-bold ff_lato mb-0 pt-4'>Passive Income for life</h3>

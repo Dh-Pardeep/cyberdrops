@@ -1,2 +1,0 @@
-    <h2 className='font_xl fw-semibold ff_lato color_white mb-2 pb-1 ps-5 ms-5'>March 2022</h2>
-                                        <p className='font_xs fw-normal ff_lato color_white mb-0 ps-5 ms-5'>1000 Drops Launch on Ethereum</p>
