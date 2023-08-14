@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    /* border: 1px solid red !important;     */
+}
+.mycontainer{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+/* font-family: 'Lato', sans-serif; */
+
+/* ROOT START */
+:root {
+    --ff-lato: 'Lato', sans-serif;
+    /* FONT SIZE */
+    --font-xs: 13px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 20px;
+    --font-2xl: 22px;
+    --font-3xl: 24px;
+    --font-4xl: 36px;
+    --font-5xl: 48px;
+    /* COLOR */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-orange: #F1AC73;
+}
+
+/* DEFINE FONT SIZE */
+.ff_lato{
+    font-family:var(--ff-lato) !important;
+}
+
+.font_xs {
+    font-size: var(--font-xs) !important;
+}
+
+.font_md {
+    font-size: var(--font-md) !important;
+}
+
+.font_lg {
+    font-size: var(--font-lg) !important;
+}
+
+.font_xl {
+    font-size: var(--font-xl) !important;
+}
+
+.font_2xl {
+    font-size: var(--font-2xl) !important;
+}
+
+.font_3xl {
+    font-size: var(--font-3xl) !important;
+}
+
+.font_4xl {
+    font-size: var(--font-4xl) !important;
+}
+
+.font_5xl {
+    font-size: var(--font-5xl) !important;
+}
+.z_1000{
+    z-index: 1000 !important;
+}
+
+/* FONT SIZE MEDIA QUERY */
+@media (min-width: 575.98px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 14px;
+        --font-md: 16px;
+        --font-lg: 18px;
+        --font-xl: 20px;
+        --font-2xl: 22px;
+        --font-3xl: 24px;
+        --font-4xl: 36px;
+        --font-5xl: 48px;
+    }
+}
+
+@media (min-width: 767.98px) {
+    :root {
+        /* FONT SIZE */
+        --font-2xl: 24px;
+        --font-3xl: 28px;
+        --font-4xl: 40px;
+        --font-5xl: 56px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 15px;
+        --font-md: 17px;
+        --font-lg: 19px;
+        --font-xl: 22px;
+        --font-2xl: 26px;
+        --font-3xl: 34px;
+        --font-4xl: 44px;
+        --font-5xl: 64px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-2xl: 28px;
+        --font-3xl: 36px;
+        --font-4xl: 48px;
+        --font-5xl: 72px;
+    }
+}
+
+
+/* DEFINR COLOR */
+
+.color_white {
+    color: var(--color-white) !important;
+}
+
+.color_orange {
+    color: var(--color-orange) !important;
+}
+
+.color_black {
+    color: var(--color-black) !important;
+}
+
