@@ -460,7 +460,7 @@ body {
 }
 
 .RoadmapBg {
-    background-image: url("./assets/img//png/Roadmapbg.png");
+    background-image: url("./assets/img/WebP/Roadmapbg.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -609,7 +609,7 @@ body {
 }
 
 .animation_preloader {
-    animation: loder 4s linear;
+    animation: loder 2.5s linear;
 }
 
 @keyframes loder {

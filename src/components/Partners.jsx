@@ -12,8 +12,8 @@ const Partners = () => {
         <MyNav/>
             <section className='position-relative bg-black' >
                 <img className='Partnershadow position-absolute' src={Partnershadow} alt="Partnershadow" />
-                <div className='pt-5'>
-                    <h2 className='font_4xl color_white ff_lato fw-bolder mb-0 text-center pt-5 mb-0' data-aos="fade-up" >Part<span className=' color_orange'>ners</span></h2>
+                <div className='text-center mt-5'>
+                    <h2 className='font_4xl color_white ff_lato fw-bolder mb-0 text-center pt-5' data-aos="fade-up" >Part<span className=' color_orange'>ners</span></h2>
                 </div>
                 <div className='partners_bimage  pt-5 h-100'>
                     <div className='mycontainer py-md-5' >

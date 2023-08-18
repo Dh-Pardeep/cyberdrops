@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import OurBack from '../assets/img/png/Our-Mission-back-img.png'
+import OurBack from '../assets/img/WebP/Our-Mission-back-img.webp'
 import OurCenter from '../assets/img/png/Our-Mission-Center-img.png'
-import OurUpper from '../assets/img/png/Our-Mission-upper-img.png'
+import OurUpper from '../assets/img/WebP/Our-Mission-upper-img.webp'
 const OurMission = () => {
     return (
         <>
@@ -11,7 +11,7 @@ const OurMission = () => {
                 <div className='mycontainer'>
                     <Row className='justify-content-between align-items-center py-md-5'>
                         <Col md={6} lg={5} data-aos="fade-right" data-aos-delay="300">
-                            <div className='pt-5 mt-5 pt-md-0 mt-md-0'>
+                            <div className='py-5 mt-5 pt-md-0 mt-md-0'>
                                 <div className='position-relative w_95 text-center mx-auto' >
                                     <img className=' OurBack w_95 c_pointer ' src={OurBack} alt="OurBack" />
                                     <div className='position-absolute w-100 OurCenter c_pointer'>
