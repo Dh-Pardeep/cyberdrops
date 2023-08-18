@@ -1,7 +1,6 @@
 import React from 'react'
 import FooterCyberDrops from '../assets/img/png/FooterCyberDrops.png'
 import { Boaticon, Discordicon, Micon, Twittericon } from './Icon'
-import FooterShadowright from '../assets/img/png/FooterShadowright.png'
 import MyNav from './MyNav'
 const MyFooter = () => {
     return (
@@ -9,7 +8,7 @@ const MyFooter = () => {
             <MyNav />
             <section>
                 <footer className=' position-relative bg-black'>
-                    <img className='position-absolute bottom-0 end-0 FooterShadowright' src={FooterShadowright} alt="FooterShadowright" />
+                <div className='FooterShadowright position-absolute'></div>
                     <div className="mycontainer pt-lg-5">
                         <div className='text-center mt-5 pt-md-5'>
                             <img className='transform_scale' data-aos-delay="500" data-aos="zoom-in" src={FooterCyberDrops} alt="FooterCyberDrops" />

@@ -65,6 +65,7 @@ export default function TeamSlider() {
         <>
         <MyNav/>
             <section className="position-relative bg-black">
+            <div className='teamshadow position-absolute'></div>
                 <img className="position-absolute TeamBalloon" src={TeamBalloon} alt="TeamBalloon" />
                 <div className="mycontainer pt-4 mt-4">
                     <h2 className='font_4xl color_white ff_lato fw-bolder mb-0 text-center pt-5' data-aos="fade-up" data-aos-delay="500">Meet the<span className=' color_orange'>Team</span></h2>

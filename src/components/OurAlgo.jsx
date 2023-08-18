@@ -3,12 +3,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Algo_1 from '../assets/img/png/Algo_1.png'
 import Algo_2 from '../assets/img/png/Algo_2.png'
 import Algo_3 from '../assets/img/png/algo_3.png'
-import OurAlgoShadow from '../assets/img/png/Heroshadow2.png'
 const OurAlgo = () => {
     return (
         <>
             <section className='position-relative'>
-                <img className='OurAlgoShadow position-absolute' src={OurAlgoShadow} alt="OurAlgoShadow" />
+            <div className='OurAlgoShadow position-absolute'></div>
                 <div className='mycontainer  py-5'>
                     <Row className='justify-content-between py-4 align-items-center'>
                         <Col xs={12} lg={5} xl={6} data-aos="fade-right"  data-aos-delay="500">

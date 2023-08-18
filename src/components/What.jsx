@@ -5,13 +5,12 @@ import Whats2 from '../assets/img/png/whats2.png'
 import Whats3 from '../assets/img/png/whats3.png'
 import Whats4 from '../assets/img/png/whats4.png'
 import WhatUmberla from '../assets/img/png/WhatUmberla.png'
-import WhatShadow from '../assets/img/png/Heroshadow.png'
 const What = () => {
     return (
         <>
             <section className='position-relative'>
+                <div className='WhatShadow position-absolute'></div>
                 <img className=' position-absolute WhatUmberla' src={WhatUmberla} alt="WhatUmberla" />
-                <img className='WhatShadow position-absolute ' src={WhatShadow} alt="WhatShadow" />
                 <div className='mycontainer'>
                     <Row className='justify-content-between py-4 align-items-center'>
                         <Col xs={12} lg={7} xl={6} data-aos="fade-right" data-aos-delay="500">

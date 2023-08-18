@@ -3,16 +3,13 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import CyberDropsMain from '../assets/img/WebP/CyberBrops-Main-img.webp'
 import MyNav from '../components/MyNav'
-import NavShadow from'../assets/img/png/NavShadow.png'
-import Heroshadow from '../assets/img/png/Heroshadow.png'
-import Heroshadow2 from '../assets/img/png/Heroshadow2.png'
 const Hero = () => {
     return (
         <>
-            <section className='position-relative bg-black'>
-                <img className='NavShadow position-absolute' src={NavShadow} alt="NavShadow" />
-                <img className='Heroshadow position-absolute' src={Heroshadow} alt="Heroshadow" />
-                <img className='Heroshadow2 position-absolute' src={Heroshadow2} alt="Heroshadow2" />
+            <section className='position-relative bg-black' >
+                <div className='NavShadow position-absolute'></div>
+                <div className='Heroshadow position-absolute'></div>
+                <div className='Heroshadow2 position-absolute'></div>
                 <MyNav />
                 <div className='mycontainer pt-5 pb-lg-4 mt-5'>
                     <Row className='justify-content-between py-5 my-md-4 my-lg-5 align-items-center '>

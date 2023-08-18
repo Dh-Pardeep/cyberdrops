@@ -2,13 +2,12 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import Accordion_umberla from '../assets/img/png/Accordion_umberlafrom.png'
-import AccordionShadow from '../assets/img/png/AccordionShadow.png'
 const MyAccordion = () => {
     return (
         <>
             <section className='position-relative'>
                 <img className='position-absolute Accordion_umberla' src={Accordion_umberla} alt="Accordion_umberla" />
-                <img className='position-absolute AccordionShadow' src={AccordionShadow} alt="AccordionShadow" />
+                <div className='AccordionShadow position-absolute'></div>
                 <div className="mycontainer">
                 <h2 className='font_4xl color_orange ff_lato fw-bolder mb-0 text-center py-5'>FAQ<span className='color_white'>’s</span></h2>
                     <Row className='justify-content-center'>

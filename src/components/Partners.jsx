@@ -4,14 +4,13 @@ import Playbit from '../assets/img/png/Playbit-img.png'
 import Capital from '../assets/img/png/24-img.png'
 import TradingHive from '../assets/img/png/TradingHive-img.png'
 import Focus from '../assets/img/png/Focus-group-img.png'
-import Partnershadow from '../assets/img/png/Heroshadow.png'
 import MyNav from './MyNav'
 const Partners = () => {
     return (
         <>
         <MyNav/>
             <section className='position-relative bg-black' >
-                <img className='Partnershadow position-absolute' src={Partnershadow} alt="Partnershadow" />
+            <div className='Partnershadow position-absolute'></div>
                 <div className='text-center mt-5'>
                     <h2 className='font_4xl color_white ff_lato fw-bolder mb-0 text-center pt-5' data-aos="fade-up" >Part<span className=' color_orange'>ners</span></h2>
                 </div>
