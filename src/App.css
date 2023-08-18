@@ -684,7 +684,7 @@ body {
 }
 
 .NavShadow {
-    z-index: 999999999999999999;
+    z-index: 1900;
     top: -10px;
     left: -10px;
     width: 100px;
