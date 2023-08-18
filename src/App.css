@@ -338,7 +338,7 @@ body {
 }
 
 .partners_bimage {
-    background-image: url("./assets//img//png/Partners_bg.png");
+    background-image: url("./assets//img/WebP/Partners_bg.webp");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
