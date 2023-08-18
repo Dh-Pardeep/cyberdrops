@@ -479,9 +479,8 @@ body {
 }
 
 .slick-dots li.slick-active button:before {
-    color: white;
-    border: 2px solid white;
-    border-radius: 50%;
+    content: '•' !important;
+    color: white !important;
 }
 
 .slick-dots li button:before {
@@ -493,10 +492,13 @@ body {
     left: 0;
     width: 20px;
     height: 20px;
-    content: '•';
+    content: '';
     text-align: center;
     opacity: 1 !important;
-    color: white !important;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: black !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
