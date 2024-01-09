@@ -29,7 +29,7 @@ const BackToTop = () => {
     <>
       <section>
           <div className='back_to_top'>
-            <FiArrowUp className="scrollTop " onClick={scrollTop} style={{ height: 40, display: showScroll ? 'flex' : 'none' }} />
+            <FiArrowUp className="scrollTop  " onClick={scrollTop} style={{ height: 40, display: showScroll ? 'flex' : 'none' }} />
           </div>
       </section>
     </>
